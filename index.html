@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi pagina Tecnolochicas 2023</title>
+    <link rel="stylesheet" href="estilo.css">
+    <style>
+        h1{
+            color: blue;
+        }
+        h3{
+            color: green;
+        }
+        p{
+            color: coral;
+        }
+    </style>
+</head>
+<body>
+   <h1>Floreria</h1> 
+   <h2>!Hola mundo!</h2>
+   <h3>!Hola mundo!</h3>
+   <h4>!Hola mundo!</h4>
+   <h5>!Hola mundo!</h5>
+   <h6>!Hola mundo!</h6>
+
+    <h1 >Mis flores</h1>
+    <h1 id="Mis-flores">Mis flores</h1>
+    <main>
+    <h3>Imagenes de ellos</h3>
+    <img src="img/IMG_20230409_105619.jpg" width="250" lang="300" alt="Flor" class="bordes-redondeados imagen-de-flores">
+
+    <hr>
+    <h3>Listas de tipos de flores</h3>
+    <div>
+        <p>Flores que a las personas les  <strong>gustan</strong></p>
+        <p><em>Lista echa por Rosario</em></p>
+        <ul class="lista-flores-aman">
+            <li>Geranios</li>
+            <li>Coronas de cristo</li>
+            <li>Teresitas</li>
+            <li>Lirios</li>
+            <li>Gardenias</li>
+        </ul>
+
+        <hr>
+        <br>
+        <img src="img/ella JK BLONDE HAIR on Twitter.jpg" width="250" lang="300" alt="hope">
+        <p>Razones por las que las personas   <strong>odian</strong> las flores</p>
+        <p><em>Lista echa por Rosario</em></p>
+        <ol class="lista-flores">
+            <li >algunas crecen mucho</li>
+            <li><s>tienen mal olor</s></li>
+            <li>las espinas</li>
+           
+        </ol>
+    </div>
+    <img src="img/foto-1.jpg" alt="flores" class="imagen-de-flores" class="imagen-de-flores"> <!--imagen desde nuestro dispositivo-->
+    <br>
+
+     <!--Crear enlaces internos / Enlaces a Secciones Internas-->
+
+     <a href="#parrafo-1">Párrafo 1</a>
+     <a href="#parrafo-2">Párrafo 2</a>
+     <a href="#parrafo-3">Párrafo 3</a>
+     <a href="#parrafo-4">Parráfo 4</a>
+
+    <h3 id="parrafo-1" style="color: red;">Flores rojas</h3>
+
+    <p>Texto</p>
+
+    <h3 id="parrafo-2" style="color: rgba(203, 203, 19, 0.63);">Flores amarillas</h3>
+    <p>Texto</p>
+
+    <h3 id="parrafo-3" style="color: blueviolet;">Flores moradas</h3>
+    <p>Texto</p>
+
+    <h3 id="parrafo-4" style="color: palevioletred;">Flores rosas</h3>
+    <p>Texto</p>
+     <!--Crear enlaces externos-->
+    <p>En este link <a href="https://pixabay.com/es/images/search/flores/" target="_blank" rel="noopener noreferrer">puedes ver más imágenes de flores.</a></p>
+
+
+    <!--Enlaces con imágenes-->
+    <a href="https://www.hogarmania.com/mascotas/cinco-razones-para-adoptar-gato-negro.html" target="_blank"><img src="img/foto-7.jpg" alt="flores" id="imagen-con-padding"></a>
+
+    <img src="img/foto-5.jpg" alt="lasagna" id="imagen-con-padding">
+
+    <!--Crear enlaces con #. Enlaces muertos o dead links-->
+    <p>Visita nuestro <a href="#" rel="noopener noreferrer">nuevo sitio web aquí</a></p>
+
+        <!--Formulario-->
+        <form action="/enviar-respuesta">
+            <!--Texto y botón enviar-->
+            <input type="text" placeholder="URL de la foto de tus flores" required>
+            <br>
+            <button type="submit">Enviar</button>
+           
+            <!--Botones de radio-->
+            <p>¿Tus folres son?</p>
+                <label for="grandes">
+                    <input id="grandes" type="radio" value="grandes" name="flores-grandes" checked>grandes
+                </label>
+                <br>
+                <label for="pequeñas">
+                    <input id="pequeñas" type="radio" value="pequeñas" name="flores-pequeñas">pequeñas
+                </label>
+                <br>
+
+
+            <!--Casillas de verificación-->
+            <p>¿Qué tipo de flores son?</p>
+            <label for="silvestres">
+                <input id="silvestres" type="checkbox" value="silvestres" name="tipo" checked> silvestres
+            </label>
+            <br>
+            <label for="sencillas">
+                <input id="sencillas" type="checkbox" value="sencillas" name="tipo"> sencillas
+            </label>
+            <br>
+            <label for="aroma">
+                <input id="aroma" type="checkbox" value="aroma" name="tipo"> con aroma
+            </label>
+            <br>         
+        </form>
+    </main>
+    <!--pie de página-->
+    <footer>
+        <!--Etiqueta small para que el pie de página se vea más pequeño-->
+        <p><small>derechos de autor - <a href="https://tecnolochicas.mx/" target="_blank">tecnolochicas.mx</a></small></p>
+    </footer>
+    <a href="Documento-1">Documento-1</a>
+
+    <h3 id="Documento-1">Documento-1</h3>
+    <p>Este es el primer <strong>documento</strong></p>
+
+</body>
+</html>
